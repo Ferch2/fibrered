@@ -40,40 +40,15 @@
   </ion-page>
 </template>
 
-<script setup lang="ts">
-import { 
-  IonContent, 
-  IonHeader, 
-  IonPage, 
-  IonTitle, 
-  IonToolbar,
-  IonCard,
-  IonCardHeader,
-  IonCardTitle,
-  IonCardSubtitle,
-  IonCardContent,
-  IonButtons,
-  IonButton,
-  IonIcon
-} from '@ionic/vue';
+<script>
 import { contrastOutline } from 'ionicons/icons';
 
-// Definimos el tipo de datos incluyendo el precio
-interface PlanInternet {
-  titulo: string;
-  precio: string;
-  detalle: string;
-}
-
 const toggleTema = () => {
-  // Para Ionic v8+ activa la paleta oscura
   document.documentElement.classList.toggle('ion-palette-dark');
-  // Para compatibilidad con versiones anteriores o estilos globales
   document.body.classList.toggle('dark');
 };
 
-// Llenamos el array con los 3 planes
-const servicios: PlanInternet[] = [
+const servicios = [
   {
     titulo: 'Plan Fibra 100 Megas',
     precio: '$30.000 / mes',
