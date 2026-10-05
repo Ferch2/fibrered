@@ -2,6 +2,6 @@
 <resources>
     <string name="app_name">fibrered</string>
     <string name="title_activity_main">fibrered</string>
-    <string name="package_name">io.ionic.starter</string>
-    <string name="custom_url_scheme">io.ionic.starter</string>
+    <string name="package_name">ar.com.fibrered</string>
+    <string name="custom_url_scheme">ar.com.fibrered</string>
 </resources>

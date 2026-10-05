@@ -1,4 +1,4 @@
-package io.ionic.starter;
+package ar.com.fibrered;
 
 import com.getcapacitor.BridgeActivity;
 
