@@ -1,0 +1,2 @@
+Las fotos de los productos van aca y la API las sirve en /seed/productos/<archivo>.
+imagen_url en la base guarda esa ruta relativa, nunca el host.

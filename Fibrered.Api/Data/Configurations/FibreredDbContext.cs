@@ -15,4 +15,4 @@ public sealed class FibreredDbContext(DbContextOptions<FibreredDbContext> option
         modelBuilder.ApplyConfiguration(new ProductoConfiguration());
         base.OnModelCreating(modelBuilder);
     }
-}
+} 
