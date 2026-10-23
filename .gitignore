@@ -17,16 +17,28 @@ $RECYCLE.BIN/
 log.txt
 npm-debug.log*
 
-/.idea
-/.ionic
-/.sass-cache
-/.sourcemaps
-/.versions
+.idea/
+.ionic/
+.sass-cache/
+.sourcemaps/
+.versions/
 /.vscode/*
 !/.vscode/extensions.json
-/coverage
-/dist
-/node_modules
-/platforms
-/plugins
-/www
+coverage/
+dist/
+node_modules/
+platforms/
+plugins/
+www/
+
+# .NET · carpetas generadas por el compilador
+[Bb]in/
+[Oo]bj/
+
+# La URL de la API es de cada maquina: se versiona .env.example, no .env
+.env
+.env.local
+
+# Notas del profesor: no se suben. La unica guia versionada es README.v3.md, la del alumno.
+README.*.md
+!README.v3.md
